@@ -1,0 +1,14 @@
+version: '3'
+services:
+  kamailio:
+      container_name: kamailio
+      tty: true
+      image: deizeppe/docker-kamailio-500
+      stdin_open: true
+      restart: always
+      network_mode: host
+      ports:
+        - "5060:5060/udp"
+        - "5060:5060/tcp"
+      volumes:
+        - '/etc/kamailio:/etc/kamailio kamailio'
