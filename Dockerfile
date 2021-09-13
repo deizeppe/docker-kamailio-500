@@ -51,7 +51,7 @@ ADD kamailio.cfg /
 
 RUN ln -s /etc/sv/* /etc/service
 
-COPY kamailio.cfg /etc/kamailio/
+COPY kamailio.cfg /etc/kamailio/kamailio.cfg
 COPY entrypoint.sh /entrypoint.sh
 
 EXPOSE 5060/udp
