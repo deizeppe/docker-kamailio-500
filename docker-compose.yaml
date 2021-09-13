@@ -6,9 +6,6 @@ services:
       image: deizeppe/docker-kamailio
       stdin_open: true
       restart: always
-      network_mode: host
-      ports:
-        - "5060:5060/udp"
-        - "5060:5060/tcp"
+      network_mode: host      
       volumes:
-        - '/etc/kamailio:/etc/kamailio kamailio'
+        - '/etc/kamailio:/etc/kamailio'

@@ -8,3 +8,5 @@ sed -i "s/udp:localhost:2229/udp:${HOST_IP}:2229/g" ${KAMAILIO_CFG_PATH}
 sed -i "s/postgres@localhost/postgres@${HOST_IP}/g" ${KAMAILIO_CFG_PATH}
 
 exec /usr/sbin/kamailio -DDEdd -f ${KAMAILIO_CFG_PATH}
+
+

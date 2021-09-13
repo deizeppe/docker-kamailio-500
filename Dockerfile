@@ -47,6 +47,7 @@ RUN apt-get update &&           \
 RUN echo "local0.*                        -/var/log/kamailio.log" >> /etc/rsyslog.conf
 
 ADD units /
+ADD kamailio.cfg /
 
 RUN ln -s /etc/sv/* /etc/service
 
