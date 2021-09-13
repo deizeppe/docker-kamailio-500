@@ -3,7 +3,7 @@ services:
   kamailio:
       container_name: kamailio
       tty: true
-      image: deizeppe/docker-kamailio-500
+      image: deizeppe/docker-kamailio
       stdin_open: true
       restart: always
       network_mode: host
