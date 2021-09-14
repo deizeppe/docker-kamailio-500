@@ -45,6 +45,8 @@ RUN apt-get update &&           \
 
 # -------------------- Kamailio configs
 RUN echo "local0.*                        -/var/log/kamailio.log" >> /etc/rsyslog.conf
+RUN touch /var/log/kamailio.log
+
 
 ADD units /
 ADD kamailio.cfg /
