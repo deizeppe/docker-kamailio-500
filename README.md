@@ -4,12 +4,14 @@
 
 **Pull from hub**
 
-docker pull deizeppe/kamailio
+**docker pull deizeppe/kamailio**
 Build from source
-ˋˋˋ
+
 git clone https://github.com/deizeppe/docker-kamailio-500.git && cd docker-kamailio
 docker image build -t kamailio .
-Run from local
+
+**Run from local**
+
 
 docker run -tid --rm --network=host --name=kamailio -v /etc/kamailio:/etc/kamailio kamailio
 Run from hub
