@@ -60,4 +60,3 @@ EXPOSE 5060/udp
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-
