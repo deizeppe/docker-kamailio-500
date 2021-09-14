@@ -6,15 +6,16 @@
 
 Build and run kamailio on docker
 
-### Pull from hub
+
+### Pull an image or a repository from a registry
 	docker pull deizeppe/kamailio
 
-### Build from source
+### Build an image from a Dockerfile
 	git clone https://github.com/deizeppe/docker-kamailio-500.git && cd docker-kamailio-500
 	docker image build -t kamailio .
 	
 ### Run from local
-*	docker run -tid --rm --network=host --name=kamailio -v /etc/kamailio:/etc/kamailio kamailio 
+* docker run -tid --rm --network=host --name=kamailio -v /etc/kamailio:/etc/kamailio kamailio 
 
 ### Run from hub
 * docker run -tid --rm --network=host --name=kamailio -v /etc/kamailio:/etc/kamailio deizeppe/kamailio 
