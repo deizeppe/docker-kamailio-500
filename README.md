@@ -1,5 +1,5 @@
 # docker-kamailio-500
-![License](https://img.shields.io/github/license/deizeppe/ansible-role-archlinux?color=purple&style=plastic)
+![License](https://img.shields.io/github/license/deizeppe/docker-kamailio-500?color=purple&style=plastic)
 ![reposize](https://img.shields.io/github/repo-size/deizeppe/docker-kamailio?color=orange&style=plastic)
 ![dockerbuild](https://img.shields.io/docker/automated/deizeppe/kamailio?style=plastic)
 
