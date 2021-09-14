@@ -1,5 +1,5 @@
 # docker-kamailio-500
-![ver](https://img.shields.io/github/v/release/mach1el/docker-kamailio?color=red&style=plastic)
+![ver](https://img.shields.io/github/v/release/deizeppe/docker-kamailio-500?color=red&style=plastic)
 ![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
