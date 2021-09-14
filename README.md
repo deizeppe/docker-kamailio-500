@@ -1,6 +1,7 @@
 # docker-kamailio-500
 ![ver](https://img.shields.io/github/v/release/deizeppe/docker-kamailio-500?color=red&style=plastic)
 ![License](https://img.shields.io/github/license/deizeppe/docker-kamailio-500?color=yellow&style=plastic)
+![reposize](https://img.shields.io/github/repo-size/deizeppe/docker-kamailio-500?color=orange&style=plastic)
 
 Build and run kamailio on docker
 
