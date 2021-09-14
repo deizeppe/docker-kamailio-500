@@ -1,5 +1,5 @@
 # docker-kamailio-500
-
+![reposize](https://img.shields.io/github/repo-size/deizeppe/docker-kamailio?color=orange&style=plastic)
 ![dockerbuild](https://img.shields.io/docker/automated/deizeppe/kamailio?style=plastic)
 
 Build and run kamailio on docker
