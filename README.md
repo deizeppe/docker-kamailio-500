@@ -1,6 +1,6 @@
 # docker-kamailio-500
 
-**Build and run kamailio on docker
+**Build and run kamailio on docker*
 
 Pull from hub
 
