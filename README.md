@@ -2,11 +2,11 @@
 
 **Build and run kamailio on docker**
 
-Pull from hub
+**Pull from hub**
 
 docker pull deizeppe/kamailio
 Build from source
-
+ˋˋˋ
 git clone https://github.com/deizeppe/docker-kamailio-500.git && cd docker-kamailio
 docker image build -t kamailio .
 Run from local
