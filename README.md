@@ -1,18 +1,18 @@
 # docker-kamailio-500
 
-# Build and run kamailio on docker
+Build and run kamailio on docker
 
-# Pull from hub
+Pull from hub
 
-# docker pull deizeppe/kamailio
+docker pull deizeppe/kamailio
 Build from source
 
-git clone https://github.com/mach1el/docker-kamailio.git && cd docker-kamailio
+git clone https://github.com/deizeppe/docker-kamailio-500.git && cd docker-kamailio
 docker image build -t kamailio .
-# Run from local
+Run from local
 
 docker run -tid --rm --network=host --name=kamailio -v /etc/kamailio:/etc/kamailio kamailio
-# Run from hub
+Run from hub
 
 docker run -tid --rm --network=host --name=kamailio -v /etc/kamailio:/etc/kamailio mich43l/kamailio
 Notes
