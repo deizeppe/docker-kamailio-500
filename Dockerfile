@@ -49,14 +49,12 @@ RUN touch /var/log/kamailio.log
 
 
 ADD units /
-ADD kamailio.cfg /
+ADD configs/kamailio.cfg /etc/kamailio/kamailio.cfg
 
 RUN ln -s /etc/sv/* /etc/service
 
-COPY kamailio.cfg /etc/kamailio/kamailio.cfg
 COPY entrypoint.sh /entrypoint.sh
 
 EXPOSE 5060/udp
 
 ENTRYPOINT ["/entrypoint.sh"]
-

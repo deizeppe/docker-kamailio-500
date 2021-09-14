@@ -23,5 +23,7 @@ echo "Started runsvdir, PID is ${RUNSVDIR}"
 trap shutdown SIGTERM SIGHUP SIGINT
 wait "${RUNSVDIR}"
 
+exec /etc/init.d/rsyslog restart &
+
 shutdown
 
