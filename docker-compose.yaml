@@ -9,3 +9,5 @@ services:
       network_mode: host      
       volumes:
         - '/etc/kamailio:/etc/kamailio'
+
+

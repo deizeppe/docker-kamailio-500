@@ -57,3 +57,5 @@ COPY entrypoint.sh /entrypoint.sh
 EXPOSE 5060/udp
 
 ENTRYPOINT ["/entrypoint.sh"]
+
+

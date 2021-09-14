@@ -24,3 +24,4 @@ trap shutdown SIGTERM SIGHUP SIGINT
 wait "${RUNSVDIR}"
 
 shutdown
+
